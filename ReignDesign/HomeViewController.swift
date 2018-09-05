@@ -64,7 +64,7 @@ class HomeViewController : UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     //reload data
-    func refresh(_ sender: Any) {
+    @objc func refresh(_ sender: Any) {
         
         HUD.show(.progress)
         
